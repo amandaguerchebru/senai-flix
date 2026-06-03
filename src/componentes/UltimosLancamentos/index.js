@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import filme from '../../imagens/filme.png'
 const lancamentos = [
-{ nome: 'Front-End: A Origem', id: 1, src: filme },
-{ nome: 'O Retorno do Dev', id: 2, src: filme },
-{ nome: 'Full Stack Wars', id: 3, src: filme },
-{ nome: 'Node.js Reloaded', id: 4, src: filme }
+{ nome: 'Como Mágica', id: 1, src: filme },
+{ nome: 'Michael: o filme', id: 2, src: filme },
+{ nome: 'Um Cabra Bom de Bola', id: 3, src: filme },
+{ nome: 'Mestres do Universo', id: 4, src: filme }
 ]
 const LancamentosContainer = styled.section`
 background-color: #f5f5f5;
