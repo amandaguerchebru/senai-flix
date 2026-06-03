@@ -13,17 +13,16 @@ cursor: pointer;
 `
 const IconeImagem = styled.img`
 width: 28px;
-filter: invert(1);
 `
 function IconesHeader() {
-return (
-<Icones>
-{icones.map((icone) => (
-<Icone>
-<IconeImagem src={icone} alt="ícone" />
-</Icone>
-))}
-</Icones>
-)
+    return (
+        <Icones>
+            {icones.map((icone) => (
+                <Icone>
+                    <IconeImagem src={icone} alt="ícone" />
+                </Icone>
+            ))}
+        </Icones>
+    )
 }
 export default IconesHeader

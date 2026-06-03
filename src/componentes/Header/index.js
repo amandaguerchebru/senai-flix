@@ -3,7 +3,7 @@ import Logo from '../Logo'
 import OpcoesHeader from '../OpcoesHeader'
 import IconesHeader from '../IconesHeader'
 const HeaderContainer = styled.header`
-background-color: #111;
+background-color: #13315C;
 display: flex;
 align-items: center;
 justify-content: center;

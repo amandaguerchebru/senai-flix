@@ -26,8 +26,9 @@ flex-wrap: wrap;
 `
 const CardFilme = styled.div`
 width: 180px;
-background-color: #fff;
-color: #111;
+background-color: #F7B614;
+font-weight: bold;
+color: #fff;
 padding: 15px;
 border-radius: 10px;
 `

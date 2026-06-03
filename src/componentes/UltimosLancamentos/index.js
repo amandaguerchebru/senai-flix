@@ -1,13 +1,17 @@
 import styled from 'styled-components'
-import filme from '../../imagens/filme.png'
+import comomagica from '../../imagens/filmes/comomagica.png'
+import michael from '../../imagens/filmes/michael.png'
+import cabra from '../../imagens/filmes/umcabrabomdebola.png'
+import mestresuniverso from '../../imagens/filmes/mestresdouniverso.png'
+
 const lancamentos = [
-{ nome: 'Como Mágica', id: 1, src: filme },
-{ nome: 'Michael: o filme', id: 2, src: filme },
-{ nome: 'Um Cabra Bom de Bola', id: 3, src: filme },
-{ nome: 'Mestres do Universo', id: 4, src: filme }
+{ nome: 'Como Mágica', id: 1, src: comomagica },
+{ nome: 'Michael: o filme', id: 2, src: michael },
+{ nome: 'Um Cabra Bom de Bola', id: 3, src: cabra },
+{ nome: 'Mestres do Universo', id: 4, src: mestresuniverso }
 ]
 const LancamentosContainer = styled.section`
-background-color: #f5f5f5;
+background-color: #F4F1EA;
 padding: 50px 0;
 text-align: center;
 `
